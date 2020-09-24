@@ -1,0 +1,204 @@
+
+
+
+
+h1 {
+    color       : #fd151b;
+    text-align  : center;
+    padding-left: 1rem;
+    font-family : 'Krona One', sans-serif;
+    
+}
+
+h2 {
+    color      : #0a122a;
+    text-align : center;
+    padding    : 0rem;
+    font-family: 700;
+    padding: 2rem;
+    
+
+}
+
+h3 {
+    color          : black;
+    font-family    : 300;
+    text-align-last: center;
+    padding        : 1rem;
+    
+}
+
+header {
+    background-color: #f1f2ee;
+    
+ 
+    
+
+}
+
+main {
+    width: 100%;
+
+}
+
+article {
+
+    background-color: #f1f2ee;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding      : 1rem;
+    
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.classic {
+    font-family : 500;
+    font-size   : 1rem;
+    word-spacing: 0.3rem;
+    text-align  : center;
+    padding     : 2%;
+    
+}
+.news {
+    background-color: skyblue;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+     
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.menu ul {
+    display        : flex;
+    justify-content: space-around;
+    padding        : 1rem;
+}
+
+a:link,
+a:visited {
+    background: #f1f2ee;
+    color     : royalblue;
+}
+
+a:hover {
+    background-color: blue;
+    color           : white;
+
+}
+
+a:active {
+    background-color: cyan;
+    color           : #333;
+}
+
+.pulsacion {
+    transition: transform .2s;
+}
+
+.pulsacion:hover {
+    transform: scale(1.2);
+}
+
+.sombra {
+   /* box-shadow: 2px 18px 42px -6px rgba(0, 0, 0, 0.75);*/
+}
+
+.locales {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-evenly;
+    padding        : 5rem;
+}
+
+.mapa {
+    display        : flex;
+    justify-content: center;
+    padding        : 1rem;
+}
+
+.aeropuerto {
+    background-color: #f1f2ee;
+    display         : flex;
+    justify-content : space-around;
+    padding: 2rem;
+}
+
+.principal {
+    margin-left: 2rem;
+    padding    : 0.5rem;
+}
+
+.w {
+    display : flex;
+    position: fixed;
+    top     : 35rem;
+    right   : 0;
+    padding : 0.5rem;
+}
+
+
+.suscribite {
+    margin-left: 25rem;
+
+    padding: 2rem;
+}
+
+.destacados {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+    padding        : 5rem;
+
+}
+
+.imagenesG {
+    display        : flex;
+    justify-content: space-around;
+    padding        : 1rem;
+
+}
+
+.productos {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+    padding        : 1rem;
+}
+
+.nosotrosF,
+.nosotrosF1,
+.nosotrosF2 {
+    display        : flex;
+    justify-content: center;
+    padding        : 1rem;
+}
+
+.w:hover {
+    transform: scale(1.3);
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        height               : auto;
+        grid-template-columns: 100%;
+
+    }
+
+    .p {
+        display: none;
+    }
+}

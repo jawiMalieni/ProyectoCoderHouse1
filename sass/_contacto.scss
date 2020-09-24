@@ -1,0 +1,89 @@
+.fondoImagen {
+    background-image        : url(/imagenes/50-new_envol_marzo_2020.jpg);
+    background-repeat       : no-repeat;
+    /* background-attachment: fixed;*/
+    background-size         : cover;
+    height                  : 100%;
+
+
+    background-size: cover;
+
+    .tituloContacto {
+
+        padding   : 1rem;
+        text-align: center;
+        color     : white;
+        background-color: rgb(2, 2, 31);
+
+        .tituloContacto__h3 {
+            padding: 1rem;
+        }
+    }
+
+    .formulario1 {
+        width           : 400px;
+        margin          : auto;
+        background-color: rgb(2, 2, 31);
+        padding         : 1rem;
+
+
+
+        .contacto {
+
+            padding      : 35px 35px 8px;
+            margin-top   : 1px;
+            color        : white;
+            align-content: center;
+
+
+            .contacto__item1 {
+                display    : block;
+                font-weight: bold;
+                padding: 0rem;
+
+
+            }
+
+            .contacto__item {
+                margin-bottom: 15px;
+                
+
+                .contacto__item2 {
+                    padding: 8px 7px;
+                    width  : 294px;
+                    border : 1px solid royalblue;
+                    margin : 5px 0;
+
+                }
+
+                .btn_enviar {
+                    
+                    padding      : 8px 95px;
+                    border-radius: 20px;
+                    font-weight  : bold;
+                    background   : #e4f1f6;
+                    background   : -moz-linear-gradient(top, #e4f1f6 0%, #edfcff 100%);
+                    background   : -webkit-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+
+                    &:hover {
+                        background: #edfcff;
+                        background: -moz-linear-gradient(top, #edfcff 0%, red 100%);
+                        background: -webkit-linear-gradient(top,red 0%, #cfe6ef 100%);
+                    }
+
+                    &:active {
+                        background: #cfe6ef;
+                        background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+                        background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+                    }
+
+
+                }
+            }
+
+
+        }
+
+
+    }
+}

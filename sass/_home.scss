@@ -1,0 +1,148 @@
+.newTitulo {
+    padding   : $padding-h2;
+    text-align: center;
+    color     : white;
+    background-color:  rgb(2, 2, 31);
+}
+
+.new {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-evenly;
+    padding        : 5rem;
+    
+
+    .new__lista {
+        padding   : 1rem;
+        text-align: center;
+     
+    }
+}
+
+.aeropuerto {
+    display        : flex;
+    justify-content: space-evenly;
+    padding        : 2rem;
+    
+
+    .aeropuertoParrafo {
+        width: 25%;
+        margin-top: 8%;
+        
+    }
+
+    .aeropuerto__logo {
+        width: 600px;
+    }
+}
+
+.masVendidos {
+    display         : block;
+    background-color: rgb(219, 227, 230);
+    padding         : 1rem;
+
+    .masVendidos__titulo {
+        text-align: center;
+        padding   : $padding-h2;
+        color     : $color-h2;
+    }
+
+    .masVendidosCuerpo__lista {
+        display        : flex;
+        flex-wrap      : wrap;
+        justify-content: space-evenly;
+        text-align     : center;
+
+    }
+
+
+}
+
+.imagenesG {
+    display        : flex;
+    justify-content: space-evenly;
+    text-align     : center;
+
+    .imagenesG__listaTxt {
+        padding: 1rem;
+    }
+}
+
+.tendencias__titulo {
+    text-align: center;
+    padding   : 1rem;
+    color     : white;
+    background-color:$bgn-h;
+    font-size: 25px;
+}
+
+.tendencias__fotos {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-evenly;
+    padding        : 1rem;
+    background-color: white;
+
+    .tendencias__fotosImg {
+        padding: 0rem;
+
+        .tendencias__fotosImgItem {
+            width: 200px;
+        }
+    }
+
+}
+
+.suscribite {
+    padding: 1rem;
+
+    .suscribiteForm {
+        display  : flex;
+        flex-wrap: wrap;
+
+        .suscribite__mail {
+
+            margin-left  : 10rem;
+            padding      : 7px 6px;
+            width        : 294px;
+            font-weight  : bold;
+            margin-bottom: 15px;
+
+        }
+
+        .suscribite__boton {
+            width        : 10rem;
+            border-radius: 5rem;
+            margin-left  : 1rem;
+            font-weight  : bold;
+            font-size    : 20px;
+
+            &:hover {
+                color: red;
+            }
+        }
+
+        .suscribite__titulo {
+            padding    : 0rem;
+            color      : $color-h2;
+            margin-left: 2rem;
+        }
+    }
+}
+.infoLista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    background-color: white;
+
+    .infoLista__item {
+        width: 20%;
+        padding: 1rem;
+
+        .infoLista__itemTxt {
+            text-align: center;
+            size: 10px;
+        }
+    }
+}

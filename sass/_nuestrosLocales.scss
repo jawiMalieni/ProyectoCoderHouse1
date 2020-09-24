@@ -1,0 +1,39 @@
+.tituloLocales__txt{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background-color:$bgn-h;
+}
+
+.locales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5rem;
+
+    .localesLista {
+        padding: 2rem;
+
+        .localesLista__item {
+            padding: 1rem;
+            text-align: center;
+        }
+
+    }
+}
+
+.horario {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    background-color:$bgn-h;
+}
+.mapa {
+    padding: 1rem;
+    background-color: $color-bgn;
+
+    .mapaG {
+        margin-left: 30rem;
+        
+    }
+}

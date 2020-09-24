@@ -1,0 +1,34 @@
+@import "variables";
+
+@import "reset";
+
+@import "footer";
+
+@import "nav";
+
+@import "home";
+
+@import "contacto";
+
+@import "productos";
+
+@import "nosotros";
+
+@import "nuestrosLocales";
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.w {
+    display : flex;
+    position: fixed;
+    top     : 28rem;
+    right   : 0;
+    padding : 0.5rem;
+
+    &:hover {
+        transform: scale(1.3);
+    
+    }
+}

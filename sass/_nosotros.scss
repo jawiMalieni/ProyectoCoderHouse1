@@ -1,0 +1,39 @@
+    .nosTitulo {
+        text-align: center;
+        padding   : 2rem;
+        color     : white;
+        background-color:$bgn-h;
+
+    }
+
+    .nosotros__Imagen {
+        display        : flex;
+        justify-content: center;
+        padding        : 2rem;
+    }
+
+    .nosotros {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 5rem;
+        background-color:  rgb(219, 227, 230);
+        
+
+
+        .parafoN {
+            width  : 30%;
+            padding: 2rem;
+
+            .nosotros__titulo {
+                padding   : 1rem;
+                text-align: center;
+                color     : $color-h2;
+            }
+        }
+
+        
+
+        
+    }
+    

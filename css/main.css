@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.foo {
+  background-color: cornflowerblue;
+}
+.foo .fooLista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  position: static;
+  padding: 1rem;
+}
+.foo .fooLista .fooLista__copyTxt {
+  font-size: 20px;
+  color: cornsilk;
+}
+
+.navInfo {
+  background-color: skyblue;
+  color: black;
+  text-align: center;
+}
+
+.navLogo {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.navLogo .navLogo__nombre {
+  color: #0d0d6e;
+  text-align: center;
+  padding-left: 1rem;
+  font-family: "Krona One", sans-serif;
+}
+
+.navBar {
+  padding: 0.5rem;
+}
+.navBar .navBar__menu {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.navBar .navBar__menu .navBar__menuLink {
+  color: #02021f;
+  text-decoration: none;
+}
+.navBar .navBar__menu .navBar__menuLink:hover {
+  color: red;
+}
+
+.newTitulo {
+  padding: 3rem;
+  text-align: center;
+  color: white;
+  background-color: #02021f;
+}
+
+.new {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+.new .new__lista {
+  padding: 1rem;
+  text-align: center;
+}
+
+.aeropuerto {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.aeropuerto .aeropuertoParrafo {
+  width: 25%;
+  margin-top: 8%;
+}
+.aeropuerto .aeropuerto__logo {
+  width: 600px;
+}
+
+.masVendidos {
+  display: block;
+  background-color: #dbe3e6;
+  padding: 1rem;
+}
+.masVendidos .masVendidos__titulo {
+  text-align: center;
+  padding: 3rem;
+  color: #02021f;
+}
+.masVendidos .masVendidosCuerpo__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.imagenesG {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.imagenesG .imagenesG__listaTxt {
+  padding: 1rem;
+}
+
+.tendencias__titulo {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  background-color: #02021f;
+  font-size: 25px;
+}
+
+.tendencias__fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: white;
+}
+.tendencias__fotos .tendencias__fotosImg {
+  padding: 0rem;
+}
+.tendencias__fotos .tendencias__fotosImg .tendencias__fotosImgItem {
+  width: 200px;
+}
+
+.suscribite {
+  padding: 1rem;
+}
+.suscribite .suscribiteForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+.suscribite .suscribiteForm .suscribite__mail {
+  margin-left: 10rem;
+  padding: 7px 6px;
+  width: 294px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.suscribite .suscribiteForm .suscribite__boton {
+  width: 10rem;
+  border-radius: 5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 20px;
+}
+.suscribite .suscribiteForm .suscribite__boton:hover {
+  color: red;
+}
+.suscribite .suscribiteForm .suscribite__titulo {
+  padding: 0rem;
+  color: #02021f;
+  margin-left: 2rem;
+}
+
+.infoLista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: white;
+}
+.infoLista .infoLista__item {
+  width: 20%;
+  padding: 1rem;
+}
+.infoLista .infoLista__item .infoLista__itemTxt {
+  text-align: center;
+  size: 10px;
+}
+
+.fondoImagen {
+  background-image: url(/imagenes/50-new_envol_marzo_2020.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;*/
+  background-size: cover;
+  height: 100%;
+  background-size: cover;
+}
+.fondoImagen .tituloContacto {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #02021f;
+}
+.fondoImagen .tituloContacto .tituloContacto__h3 {
+  padding: 1rem;
+}
+.fondoImagen .formulario1 {
+  width: 400px;
+  margin: auto;
+  background-color: #02021f;
+  padding: 1rem;
+}
+.fondoImagen .formulario1 .contacto {
+  padding: 35px 35px 8px;
+  margin-top: 1px;
+  color: white;
+  align-content: center;
+}
+.fondoImagen .formulario1 .contacto .contacto__item1 {
+  display: block;
+  font-weight: bold;
+  padding: 0rem;
+}
+.fondoImagen .formulario1 .contacto .contacto__item {
+  margin-bottom: 15px;
+}
+.fondoImagen .formulario1 .contacto .contacto__item .contacto__item2 {
+  padding: 8px 7px;
+  width: 294px;
+  border: 1px solid royalblue;
+  margin: 5px 0;
+}
+.fondoImagen .formulario1 .contacto .contacto__item .btn_enviar {
+  padding: 8px 95px;
+  border-radius: 20px;
+  font-weight: bold;
+  background: #e4f1f6;
+  background: -webkit-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+}
+.fondoImagen .formulario1 .contacto .contacto__item .btn_enviar:hover {
+  background: #edfcff;
+  background: -webkit-linear-gradient(top, red 0%, #cfe6ef 100%);
+}
+.fondoImagen .formulario1 .contacto .contacto__item .btn_enviar:active {
+  background: #cfe6ef;
+  background: -webkit-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+}
+
+.productoTitulo {
+  text-align: center;
+  color: white;
+  padding: 1rem 0rem 0rem 0rem;
+  background-color: #02021f;
+}
+
+.producTitulo {
+  text-align: center;
+  color: white;
+  padding: 0rem 0rem 1rem 0rem;
+  background-color: #02021f;
+}
+
+.ProducTitulo__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.nosTitulo {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  background-color: #02021f;
+}
+
+.nosotros__Imagen {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5rem;
+  background-color: #dbe3e6;
+}
+.nosotros .parafoN {
+  width: 30%;
+  padding: 2rem;
+}
+.nosotros .parafoN .nosotros__titulo {
+  padding: 1rem;
+  text-align: center;
+  color: #02021f;
+}
+
+.tituloLocales__txt {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  background-color: #02021f;
+}
+
+.locales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+.locales .localesLista {
+  padding: 2rem;
+}
+.locales .localesLista .localesLista__item {
+  padding: 1rem;
+  text-align: center;
+}
+
+.horario {
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  background-color: #02021f;
+}
+
+.mapa {
+  padding: 1rem;
+  background-color: #dbe3e6;
+}
+.mapa .mapaG {
+  margin-left: 30rem;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.w {
+  display: flex;
+  position: fixed;
+  top: 28rem;
+  right: 0;
+  padding: 0.5rem;
+}
+.w:hover {
+  transform: scale(1.3);
+}

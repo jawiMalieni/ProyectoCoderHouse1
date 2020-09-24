@@ -1,0 +1,22 @@
+.productoTitulo {
+    text-align      : center;
+    color           : white;
+    padding         : 1rem 0rem 0rem 0rem;
+    background-color:$bgn-h;
+}
+
+.producTitulo {
+    text-align      : center;
+    color           : white;
+    padding         : 0rem 0rem 1rem 0rem;
+    background-color:$bgn-h;
+}
+
+.ProducTitulo__lista {
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-evenly;
+
+    
+    }
+
