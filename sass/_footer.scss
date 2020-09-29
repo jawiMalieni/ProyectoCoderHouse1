@@ -1,15 +1,13 @@
 .foo {
 
     background-color: cornflowerblue;
-    
+
 
     .fooLista {
 
         display        : flex;
         flex-wrap      : wrap;
         justify-content: space-between;
-        width          : 100%;
-        position       : static;
         padding        : 1rem;
 
         .fooLista__copyTxt {

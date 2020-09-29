@@ -20,8 +20,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
-  position: static;
   padding: 1rem;
 }
 .foo .fooLista .fooLista__copyTxt {
@@ -85,6 +83,7 @@ ul {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
+  background-color: #bdcae2;
 }
 .aeropuerto .aeropuertoParrafo {
   width: 25%;
@@ -94,30 +93,33 @@ ul {
   width: 600px;
 }
 
-.masVendidos {
-  display: block;
-  background-color: #dbe3e6;
-  padding: 1rem;
-}
-.masVendidos .masVendidos__titulo {
+.masVendidos__titulo {
   text-align: center;
-  padding: 3rem;
-  color: #02021f;
+  padding: 2rem;
+  color: white;
+  background-color: #02021f;
+  font-size: 25px;
 }
-.masVendidos .masVendidosCuerpo__lista {
+
+.masVendidosCuerpo__lista {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
+  padding: 2rem;
 }
 
-.imagenesG {
+.masVendidos {
+  background-color: #bdcae2;
+}
+.masVendidos .imagenesG {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
 }
-.imagenesG .imagenesG__listaTxt {
+.masVendidos .imagenesG .imagenesG__listaTxt {
   padding: 1rem;
+  color: white;
 }
 
 .tendencias__titulo {
@@ -180,7 +182,6 @@ ul {
   background-color: white;
 }
 .infoLista .infoLista__item {
-  width: 20%;
   padding: 1rem;
 }
 .infoLista .infoLista__item .infoLista__itemTxt {

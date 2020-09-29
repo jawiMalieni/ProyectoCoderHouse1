@@ -1,8 +1,8 @@
 .newTitulo {
-    padding   : $padding-h2;
-    text-align: center;
-    color     : white;
-    background-color:  rgb(2, 2, 31);
+    padding         : $padding-h2;
+    text-align      : center;
+    color           : white;
+    background-color: rgb(2, 2, 31);
 }
 
 .new {
@@ -10,25 +10,26 @@
     flex-wrap      : wrap;
     justify-content: space-evenly;
     padding        : 5rem;
-    
+
 
     .new__lista {
         padding   : 1rem;
         text-align: center;
-     
+
     }
 }
 
 .aeropuerto {
-    display        : flex;
-    justify-content: space-evenly;
-    padding        : 2rem;
-    
+    display         : flex;
+    justify-content : space-evenly;
+    padding         : 2rem;
+    background-color: rgb(189, 202, 226);
+
 
     .aeropuertoParrafo {
-        width: 25%;
+        width     : 25%;
         margin-top: 8%;
-        
+
     }
 
     .aeropuerto__logo {
@@ -36,51 +37,54 @@
     }
 }
 
-.masVendidos {
-    display         : block;
-    background-color: rgb(219, 227, 230);
-    padding         : 1rem;
+.masVendidos__titulo {
+    text-align      : center;
+    padding         : 2rem;
+    color           : white;
+    background-color: $bgn-h;
+    font-size       : 25px;
 
-    .masVendidos__titulo {
-        text-align: center;
-        padding   : $padding-h2;
-        color     : $color-h2;
-    }
-
-    .masVendidosCuerpo__lista {
-        display        : flex;
-        flex-wrap      : wrap;
-        justify-content: space-evenly;
-        text-align     : center;
-
-    }
 
 
 }
 
-.imagenesG {
+.masVendidosCuerpo__lista {
     display        : flex;
+    flex-wrap      : wrap;
     justify-content: space-evenly;
     text-align     : center;
+    padding        : 2rem;
 
-    .imagenesG__listaTxt {
-        padding: 1rem;
+}
+
+.masVendidos {
+    background-color: rgb(189, 202, 226);
+
+    .imagenesG {
+        display        : flex;
+        justify-content: space-evenly;
+        text-align     : center;
+
+        .imagenesG__listaTxt {
+            padding: 1rem;
+            color  : white;
+        }
     }
 }
 
 .tendencias__titulo {
-    text-align: center;
-    padding   : 1rem;
-    color     : white;
-    background-color:$bgn-h;
-    font-size: 25px;
+    text-align      : center;
+    padding         : 1rem;
+    color           : white;
+    background-color: $bgn-h;
+    font-size       : 25px;
 }
 
 .tendencias__fotos {
-    display        : flex;
-    flex-wrap      : wrap;
-    justify-content: space-evenly;
-    padding        : 1rem;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : space-evenly;
+    padding         : 1rem;
     background-color: white;
 
     .tendencias__fotosImg {
@@ -129,20 +133,21 @@
         }
     }
 }
+
 .infoLista {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 1rem;
+    display         : flex;
+    flex-wrap       : wrap;
+    justify-content : space-evenly;
+    padding         : 1rem;
     background-color: white;
 
     .infoLista__item {
-        width: 20%;
         padding: 1rem;
 
         .infoLista__itemTxt {
             text-align: center;
-            size: 10px;
+            size      : 10px;
+
         }
     }
 }
