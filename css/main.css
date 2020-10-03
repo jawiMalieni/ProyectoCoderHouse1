@@ -111,6 +111,7 @@ ul {
 
 .masVendidos {
   background-color: #bdcae2;
+  padding: 2rem;
 }
 .masVendidos .imagenesG {
   display: flex;
@@ -278,7 +279,8 @@ ul {
 .nosotros__Imagen {
   display: flex;
   justify-content: center;
-  padding: 2rem;
+  background-color: #121213;
+  width: 100%;
 }
 
 .nosotros {
@@ -296,6 +298,9 @@ ul {
   padding: 1rem;
   text-align: center;
   color: #02021f;
+}
+.nosotros .parafoN .nosotros__titulo1 {
+  padding-top: 10rem;
 }
 
 .tituloLocales__txt {
