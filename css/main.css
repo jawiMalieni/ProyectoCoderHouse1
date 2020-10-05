@@ -26,6 +26,19 @@ ul {
   font-size: 20px;
   color: cornsilk;
 }
+.foo .navFoo {
+  padding: 1rem;
+}
+.foo .navFoo .navfoo__menu {
+  padding: 1rem;
+}
+.foo .navFoo .navfoo__menu .navFoo__menuLink {
+  color: white;
+  text-decoration: none;
+}
+.foo .navFoo .navfoo__menu .navFoo__menuLink:hover {
+  color: red;
+}
 
 .navInfo {
   background-color: skyblue;
@@ -145,6 +158,13 @@ ul {
   width: 200px;
 }
 
+.encontranos__fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
 .suscribite {
   padding: 1rem;
 }
@@ -188,6 +208,24 @@ ul {
 .infoLista .infoLista__item .infoLista__itemTxt {
   text-align: center;
   size: 10px;
+}
+
+.navFoo {
+  padding: 1rem;
+  background-color: #02021f;
+}
+.navFoo .navFoo__menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+.navFoo .navFoo__menu .navFoo__menuLink {
+  color: white;
+  text-decoration: none;
+}
+.navFoo .navFoo__menu .navFoo__menuLink:hover {
+  color: red;
 }
 
 .fondoImagen {

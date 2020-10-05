@@ -59,7 +59,7 @@
 
 .masVendidos {
     background-color: rgb(189, 202, 226);
-    padding: 2rem;
+    padding         : 2rem;
 
     .imagenesG {
         display        : flex;
@@ -95,6 +95,14 @@
             width: 200px;
         }
     }
+
+}
+
+.encontranos__fotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2rem;
 
 }
 
@@ -150,5 +158,36 @@
             size      : 10px;
 
         }
+    }
+}
+
+.navFoo {
+
+    padding         : 1rem;
+    background-color:$color-h2;
+
+    .navFoo__menu {
+        display  : flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding  : 1rem;
+
+
+
+        .navFoo__menuLink {
+
+            color          : white;
+            text-decoration: none;
+
+
+
+
+            &:hover {
+                color: red;
+
+            }
+
+        }
+
     }
 }

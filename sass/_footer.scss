@@ -21,4 +21,31 @@
 
 
     }
+    .navFoo {
+
+        padding: 1rem;
+    
+        .navfoo__menu {
+            
+            padding: 1rem;
+            
+    
+            .navFoo__menuLink {
+                
+                color          :white;
+                text-decoration: none;
+                
+                
+                
+    
+                &:hover {
+                    color: red;
+    
+                }
+    
+            }
+    
+        }
+    }
 }
+
