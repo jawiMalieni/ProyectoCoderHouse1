@@ -26,19 +26,6 @@ ul {
   font-size: 20px;
   color: cornsilk;
 }
-.foo .navFoo {
-  padding: 1rem;
-}
-.foo .navFoo .navfoo__menu {
-  padding: 1rem;
-}
-.foo .navFoo .navfoo__menu .navFoo__menuLink {
-  color: white;
-  text-decoration: none;
-}
-.foo .navFoo .navfoo__menu .navFoo__menuLink:hover {
-  color: red;
-}
 
 .navInfo {
   background-color: skyblue;
