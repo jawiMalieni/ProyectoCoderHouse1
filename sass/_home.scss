@@ -3,6 +3,10 @@
     text-align      : center;
     color           : white;
     background-color: rgb(2, 2, 31);
+
+    @media (min-width: 425px) and (max-width: 1200px) {
+        padding: 1rem;
+    }
 }
 
 .new {
@@ -25,17 +29,38 @@
     padding         : 2rem;
     background-color: rgb(189, 202, 226);
 
+    @media (min-width: 425px) and (max-width: 1200px) {
 
-    .aeropuertoParrafo {
-        width     : 25%;
-        margin-top: 8%;
+        display       : flex;
+        flex-direction: column;
+
+
 
     }
 
-    .aeropuerto__logo {
-        width: 600px;
-    }
 }
+
+.aeropuertoParrafo {
+    width     : 25%;
+    margin-top: 8%;
+
+    @media (min-width: 425px) and (max-width: 1200px) {
+        margin-left: 5rem;
+        width      : 70%;
+    }
+
+}
+
+.aeropuerto__logo {
+    width: 600px;
+
+    @media (min-width: 425px) and (max-width: 1200px) {
+        width: 100%;
+    }
+
+
+}
+
 
 .masVendidos__titulo {
     text-align      : center;
@@ -55,20 +80,38 @@
     text-align     : center;
     padding        : 2rem;
 
+    @media (min-width: 425px) and (max-width: 1200px) {
+        align-content: center;
+    }
+
 }
 
 .masVendidos {
     background-color: rgb(189, 202, 226);
     padding         : 2rem;
 
+    @media (min-width: 425px) and (max-width: 1200px) {
+        padding: 1rem;
+    }
+
     .imagenesG {
         display        : flex;
         justify-content: space-evenly;
         text-align     : center;
 
+
+
         .imagenesG__listaTxt {
             padding: 1rem;
             color  : white;
+
+
+        }
+    }
+
+    .imagenesR {
+        @media (min-width: 425px) and (max-width: 1200px) {
+            width: 110%;
         }
     }
 }
@@ -99,10 +142,10 @@
 }
 
 .encontranos__fotos {
-    display: flex;
-    flex-wrap: wrap;
+    display        : flex;
+    flex-wrap      : wrap;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding        : 2rem;
 
 }
 
@@ -164,13 +207,13 @@
 .navFoo {
 
     padding         : 1rem;
-    background-color:$color-h2;
+    background-color: $color-h2;
 
     .navFoo__menu {
-        display  : flex;
-        flex-wrap: wrap;
+        display        : flex;
+        flex-wrap      : wrap;
         justify-content: space-evenly;
-        padding  : 1rem;
+        padding        : 1rem;
 
 
 

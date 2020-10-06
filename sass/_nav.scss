@@ -1,8 +1,12 @@
 .navInfo {
     background-color: skyblue;
-    color           :black;
+    color           : black;
     text-align      : center;
-    
+
+    @media (min-width: 425px) and (max-width: 1200px) {
+        display: none;
+    }
+
 }
 
 .navLogo {
@@ -10,31 +14,55 @@
     justify-content: center;
     padding        : 0.5rem;
 
-    .navLogo__nombre {
-        color       : rgb(13, 13, 110);
-        text-align  : center;
-        padding-left: 1rem;
-        font-family : 'Krona One', sans-serif;
-    }
+
 }
+
+.navLogo__nombre {
+    color       : rgb(109, 109, 161);
+    text-align  : center;
+    padding-left: 1rem;
+    font-family : 'Krona One', sans-serif;
+
+
+
+}
+
+
 
 .navBar {
 
     padding: 0.5rem;
 
+
+
     .navBar__menu {
         display        : flex;
         justify-content: space-around;
-        padding: 1rem;
-        
+        padding        : 1rem;
+
+        @media (min-width: 425px) and (max-width: 1200px) {
+            display       : flex;
+            flex-direction: column;
+            padding       : 1rem;
+            text-align    : center;
+
+
+
+        }
 
         .navBar__menuLink {
-            
-            color          :rgb(2, 2, 31);
+
+            color          : rgb(2, 2, 31);
             text-decoration: none;
-            
-            
-            
+
+            @media (min-width: 425px) and (max-width: 1200px) {
+                color: black;
+                
+
+            }
+
+
+
 
             &:hover {
                 color: red;

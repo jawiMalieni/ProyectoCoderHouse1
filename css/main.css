@@ -32,14 +32,20 @@ ul {
   color: black;
   text-align: center;
 }
+@media (min-width: 425px) and (max-width: 1200px) {
+  .navInfo {
+    display: none;
+  }
+}
 
 .navLogo {
   display: flex;
   justify-content: center;
   padding: 0.5rem;
 }
-.navLogo .navLogo__nombre {
-  color: #0d0d6e;
+
+.navLogo__nombre {
+  color: #6d6da1;
   text-align: center;
   padding-left: 1rem;
   font-family: "Krona One", sans-serif;
@@ -53,9 +59,22 @@ ul {
   justify-content: space-around;
   padding: 1rem;
 }
+@media (min-width: 425px) and (max-width: 1200px) {
+  .navBar .navBar__menu {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+}
 .navBar .navBar__menu .navBar__menuLink {
   color: #02021f;
   text-decoration: none;
+}
+@media (min-width: 425px) and (max-width: 1200px) {
+  .navBar .navBar__menu .navBar__menuLink {
+    color: black;
+  }
 }
 .navBar .navBar__menu .navBar__menuLink:hover {
   color: red;
@@ -66,6 +85,11 @@ ul {
   text-align: center;
   color: white;
   background-color: #02021f;
+}
+@media (min-width: 425px) and (max-width: 1200px) {
+  .newTitulo {
+    padding: 1rem;
+  }
 }
 
 .new {
@@ -85,12 +109,31 @@ ul {
   padding: 2rem;
   background-color: #bdcae2;
 }
-.aeropuerto .aeropuertoParrafo {
+@media (min-width: 425px) and (max-width: 1200px) {
+  .aeropuerto {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.aeropuertoParrafo {
   width: 25%;
   margin-top: 8%;
 }
-.aeropuerto .aeropuerto__logo {
+@media (min-width: 425px) and (max-width: 1200px) {
+  .aeropuertoParrafo {
+    margin-left: 5rem;
+    width: 70%;
+  }
+}
+
+.aeropuerto__logo {
   width: 600px;
+}
+@media (min-width: 425px) and (max-width: 1200px) {
+  .aeropuerto__logo {
+    width: 100%;
+  }
 }
 
 .masVendidos__titulo {
@@ -108,10 +151,20 @@ ul {
   text-align: center;
   padding: 2rem;
 }
+@media (min-width: 425px) and (max-width: 1200px) {
+  .masVendidosCuerpo__lista {
+    align-content: center;
+  }
+}
 
 .masVendidos {
   background-color: #bdcae2;
   padding: 2rem;
+}
+@media (min-width: 425px) and (max-width: 1200px) {
+  .masVendidos {
+    padding: 1rem;
+  }
 }
 .masVendidos .imagenesG {
   display: flex;
@@ -121,6 +174,11 @@ ul {
 .masVendidos .imagenesG .imagenesG__listaTxt {
   padding: 1rem;
   color: white;
+}
+@media (min-width: 425px) and (max-width: 1200px) {
+  .masVendidos .imagenesR {
+    width: 110%;
+  }
 }
 
 .tendencias__titulo {
