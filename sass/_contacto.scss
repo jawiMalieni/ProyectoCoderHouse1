@@ -17,6 +17,8 @@
         background-color: rgb(2, 2, 31);
 
 
+
+
         .tituloContacto__h3 {
             padding: 1rem;
         }
@@ -27,7 +29,12 @@
         margin : auto;
         padding: 3rem;
 
+        @media (min-width: 320px) and (max-width: 768px) {
 
+            width: 50%;
+            margin-left: 0rem;
+            padding: 1rem;
+        }
 
 
         .contacto {
@@ -36,6 +43,12 @@
             margin-top   : 1px;
             color        : white;
             align-content: center;
+            @media (min-width: 320px) and (max-width: 768px) {
+
+                padding: 10px 1px 4px;
+                color: black;
+
+            }
 
 
 

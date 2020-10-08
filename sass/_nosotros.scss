@@ -11,6 +11,11 @@
         justify-content: center;
         background-color: rgb(18, 18, 19);
         width: 100%;
+
+        @media (min-width: 320px) and (max-width: 768px) {
+            width: 3%;
+
+        }
     }
 
     .nosotros {
@@ -19,12 +24,41 @@
         justify-content: space-evenly;
         padding: 5rem;
         background-color:  rgb(219, 227, 230);
-        
+
+        @media (min-width: 320px) and (max-width: 768px) {
+
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            
+        }
+
+        .nosotros__imagen1 .nosotros__imagen2{
+
+            @media (min-width: 320px) and (max-width: 768px) {
+
+                width: 10%;
+            }
+
+        }
+            
+
+
+                
+            
 
 
         .parafoN {
             width  : 30%;
             padding: 2rem;
+
+            @media (min-width: 320px) and (max-width: 768px) {
+
+                width: 100%;
+                padding: 1rem;
+            }
+
+            
 
             .nosotros__titulo {
                 padding   : 1rem;
@@ -35,6 +69,11 @@
 
             .nosotros__titulo1 {
                 padding-top: 10rem;
+
+                @media (min-width: 320px) and (max-width: 768px) {
+
+                    padding-top: 1rem;
+                }
             }
 
            

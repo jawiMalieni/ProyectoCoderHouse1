@@ -2,14 +2,14 @@
     text-align      : center;
     color           : white;
     padding         : 1rem 0rem 0rem 0rem;
-    background-color:$bgn-h;
+    background-color: $bgn-h;
 }
 
 .producTitulo {
     text-align      : center;
     color           : white;
     padding         : 0rem 0rem 1rem 0rem;
-    background-color:$bgn-h;
+    background-color: $bgn-h;
 }
 
 .ProducTitulo__lista {
@@ -17,6 +17,18 @@
     flex-wrap      : wrap;
     justify-content: space-evenly;
 
+
+}
+
+.producTitulo__listaImg {
+
+    transform: scale(.5s);
+    padding: 2rem;
     
+    &:hover {
+        transform: scale(1.2);
     }
 
+
+
+}

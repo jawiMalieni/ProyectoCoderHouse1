@@ -32,7 +32,7 @@ ul {
   color: black;
   text-align: center;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .navInfo {
     display: none;
   }
@@ -59,7 +59,7 @@ ul {
   justify-content: space-around;
   padding: 1rem;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .navBar .navBar__menu {
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@ ul {
   color: #02021f;
   text-decoration: none;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .navBar .navBar__menu .navBar__menuLink {
     color: black;
   }
@@ -86,7 +86,7 @@ ul {
   color: white;
   background-color: #02021f;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .newTitulo {
     padding: 1rem;
   }
@@ -109,7 +109,7 @@ ul {
   padding: 2rem;
   background-color: #bdcae2;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .aeropuerto {
     display: flex;
     flex-direction: column;
@@ -120,7 +120,7 @@ ul {
   width: 25%;
   margin-top: 8%;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .aeropuertoParrafo {
     margin-left: 5rem;
     width: 70%;
@@ -130,7 +130,7 @@ ul {
 .aeropuerto__logo {
   width: 600px;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .aeropuerto__logo {
     width: 100%;
   }
@@ -151,7 +151,7 @@ ul {
   text-align: center;
   padding: 2rem;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .masVendidosCuerpo__lista {
     align-content: center;
   }
@@ -161,7 +161,7 @@ ul {
   background-color: #bdcae2;
   padding: 2rem;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .masVendidos {
     padding: 1rem;
   }
@@ -175,7 +175,7 @@ ul {
   padding: 1rem;
   color: white;
 }
-@media (min-width: 425px) and (max-width: 1200px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .masVendidos .imagenesR {
     width: 110%;
   }
@@ -294,11 +294,24 @@ ul {
   margin: auto;
   padding: 3rem;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .fondoImagen .formulario1 {
+    width: 50%;
+    margin-left: 0rem;
+    padding: 1rem;
+  }
+}
 .fondoImagen .formulario1 .contacto {
   padding: 35px 35px 8px;
   margin-top: 1px;
   color: white;
   align-content: center;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .fondoImagen .formulario1 .contacto {
+    padding: 10px 1px 4px;
+    color: black;
+  }
 }
 .fondoImagen .formulario1 .contacto .contacto__item1 {
   display: block;
@@ -350,6 +363,14 @@ ul {
   justify-content: space-evenly;
 }
 
+.producTitulo__listaImg {
+  transform: scale(0.5s);
+  padding: 2rem;
+}
+.producTitulo__listaImg:hover {
+  transform: scale(1.2);
+}
+
 .nosTitulo {
   text-align: center;
   padding: 2rem;
@@ -363,6 +384,11 @@ ul {
   background-color: #121213;
   width: 100%;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .nosotros__Imagen {
+    width: 3%;
+  }
+}
 
 .nosotros {
   display: flex;
@@ -371,9 +397,27 @@ ul {
   padding: 5rem;
   background-color: #dbe3e6;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .nosotros .nosotros__imagen1 .nosotros__imagen2 {
+    width: 10%;
+  }
+}
 .nosotros .parafoN {
   width: 30%;
   padding: 2rem;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .nosotros .parafoN {
+    width: 100%;
+    padding: 1rem;
+  }
 }
 .nosotros .parafoN .nosotros__titulo {
   padding: 1rem;
@@ -382,6 +426,11 @@ ul {
 }
 .nosotros .parafoN .nosotros__titulo1 {
   padding-top: 10rem;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .nosotros .parafoN .nosotros__titulo1 {
+    padding-top: 1rem;
+  }
 }
 
 .tituloLocales__txt {
