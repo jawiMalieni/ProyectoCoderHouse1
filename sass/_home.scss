@@ -191,7 +191,13 @@
     flex-wrap       : wrap;
     justify-content : space-evenly;
     padding         : 1rem;
-    background-color: white;
+    background-color: lightblue;
+    color: white;
+
+    @media (min-width: 320px) and (max-width: 768px) {
+
+        background-color: lightblue;
+    }
 
     .infoLista__item {
         padding: 1rem;

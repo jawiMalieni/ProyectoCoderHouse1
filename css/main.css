@@ -245,7 +245,13 @@ ul {
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 1rem;
-  background-color: white;
+  background-color: lightblue;
+  color: white;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .infoLista {
+    background-color: lightblue;
+  }
 }
 .infoLista .infoLista__item {
   padding: 1rem;
@@ -446,8 +452,18 @@ ul {
   justify-content: space-evenly;
   padding: 5rem;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .locales {
+    padding: 1rem;
+  }
+}
 .locales .localesLista {
   padding: 2rem;
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .locales .localesLista {
+    padding: 1rem;
+  }
 }
 .locales .localesLista .localesLista__item {
   padding: 1rem;
