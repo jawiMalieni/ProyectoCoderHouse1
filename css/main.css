@@ -468,6 +468,11 @@ ul {
 .mapa .mapaG {
   margin-left: 30rem;
 }
+@media (min-width: 320px) and (max-width: 768px) {
+  .mapa .mapaG {
+    margin-left: 3rem;
+  }
+}
 
 html {
   font-family: "Roboto", sans-serif;
