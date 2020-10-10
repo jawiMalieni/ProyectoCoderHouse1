@@ -81,7 +81,7 @@ ul {
 }
 
 .newTitulo {
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
   color: white;
   background-color: #02021f;
@@ -454,7 +454,7 @@ ul {
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .locales {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 }
 .locales .localesLista {
